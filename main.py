@@ -315,8 +315,7 @@ Erkläre nichts, gib NUR das JSON zurück."""
             analyzer = EmailAnalyzer(
                 self.lm_client,
                 self.config['clusters'],
-                self.config['allow_new_clusters'],
-                self.config['lm_temperature']
+                self.config['allow_new_clusters']
             )
             
             def update_analysis_progress(current, total):

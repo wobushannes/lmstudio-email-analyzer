@@ -20,14 +20,22 @@ class EmailFetcher:
         """Verbindung herstellen"""
         try:
             if self.use_imap:
-                self.connection = imaplib.IMAP4_SSL(self.server, self.port)
+                # === WICHTIG: Lokaler Test-Server ohne SSL ===
+                if self.server in ["localhost", "127.0.0.1"]:
+                    self.connection = imaplib.IMAP4(self.server, self.port)   # KEIN SSL
+                else:
+                    self.connection = imaplib.IMAP4_SSL(self.server, self.port)  # Normal mit SSL
+                
                 self.connection.login(self.username, self.password)
                 self.connection.select('INBOX')
             else:
+                # POP3 (hier erstmal so lassen)
                 self.connection = poplib.POP3_SSL(self.server, self.port)
                 self.connection.user(self.username)
                 self.connection.pass_(self.password)
+                
             return True, "Verbunden"
+            
         except Exception as e:
             return False, str(e)
     

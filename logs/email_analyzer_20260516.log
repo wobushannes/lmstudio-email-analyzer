@@ -1,0 +1,5 @@
+2026-05-16 14:56:45,151 - ERROR - Fehler in Analyse: EmailAnalyzer.__init__() takes from 3 to 4 positional arguments but 5 were given
+Traceback (most recent call last):
+  File "K:\python\scripte\emails\main.py", line 315, in _run_analysis
+    analyzer = EmailAnalyzer(
+TypeError: EmailAnalyzer.__init__() takes from 3 to 4 positional arguments but 5 were given

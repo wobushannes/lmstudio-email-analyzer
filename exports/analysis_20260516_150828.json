@@ -1,0 +1,3543 @@
+{
+  "results": [
+    {
+      "email_id": "101",
+      "subject": "Hund rechnen wollen baden.",
+      "from": "vincenzomeister@example.net",
+      "date": "2026-05-16 14:58:21.758484",
+      "clusters": [
+        "Fehler"
+      ],
+      "summary": "Analyse fehlgeschlagen: HTTP 400: {\n    \"error\": {\n        \"message\": \"No models loaded. Please load a model in the developer page or use the 'lms load' command.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": null\n    }\n}",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": false,
+      "error": "HTTP 400: {\n    \"error\": {\n        \"message\": \"No models loaded. Please load a model in the developer page or use the 'lms load' command.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": null\n    }\n}"
+    },
+    {
+      "email_id": "102",
+      "subject": "Nicht klein fr\u00f6hlich heraus doch leben Zahl im suchen seit lassen Frage.",
+      "from": "stolzealeksej@example.net",
+      "date": "2026-05-16 14:58:21.761984",
+      "clusters": [
+        "Support"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt, was auf eine m\u00f6gliche Fehlfunktion oder ein unvollst\u00e4ndiges Schreiben hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "103",
+      "subject": "Einmal geh\u00f6ren Schule baden f\u00fcr Zimmer.",
+      "from": "phermann@example.com",
+      "date": "2026-05-16 14:58:21.763985",
+      "clusters": [],
+      "summary": "Die E-Mail enth\u00e4lt einen unklaren Betreff und keinen Inhalt, was auf eine Verwechslung oder einen Fehler hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender bitten, den Zweck der E-Mail zu kl\u00e4ren."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "104",
+      "subject": "Her Zahl Bauer Eis.",
+      "from": "corinaheser@example.org",
+      "date": "2026-05-16 14:58:21.765484",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail ist sehr kurz und enth\u00e4lt nur einen unspezifischen Betreff, was auf eine private oder informelle Kommunikation hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "105",
+      "subject": "Halten nat\u00fcrlich krank schlafen kalt ab las T\u00fcr Oma Wohnung.",
+      "from": "wulfruppert@example.org",
+      "date": "2026-05-16 14:58:21.766986",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren und grammatikalisch fehlerhaften Text, der keinen erkennbaren Kontext liefert.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "106",
+      "subject": "Fertig rund Schwester lieb sch\u00f6n Blume Woche Finger h\u00f6ren zehn.",
+      "from": "qweiss@example.org",
+      "date": "2026-05-16 14:58:21.768485",
+      "clusters": [],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender kontaktieren, um den Zweck der Nachricht zu kl\u00e4ren."
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "107",
+      "subject": "Freund heute weil eigentlich bleiben.",
+      "from": "ester97@example.org",
+      "date": "2026-05-16 14:58:21.769986",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail ist sehr kurz und l\u00e4sst keinen klaren Kontext erkennen, scheint aber eine pers\u00f6nliche Nachricht zu sein.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "108",
+      "subject": "Springen Minutenmir und finden fangen weinen.",
+      "from": "qditschlerin@example.net",
+      "date": "2026-05-16 14:58:21.770985",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail hat einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "109",
+      "subject": "Berg K\u00fcche sagen wenn Seite.",
+      "from": "dsoeding@example.org",
+      "date": "2026-05-16 14:58:21.772487",
+      "clusters": [],
+      "summary": "Die E-Mail enth\u00e4lt nur einen unklaren Betreff und keinen Inhalt, was auf eine fehlerhafte oder nicht abgeschlossene Kommunikation hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender bitten, den Zweck der Nachricht zu kl\u00e4ren."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "110",
+      "subject": "Freude einige kein Mensch wissen.",
+      "from": "liebeltzoltan@example.com",
+      "date": "2026-05-16 14:58:21.773485",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail ist sehr kurz und enth\u00e4lt keinen erkennbaren Inhalt, au\u00dfer einer emotional aufgeladenen Betreffzeile.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "111",
+      "subject": "Reiten glauben \u00fcber Geschichte mein bin fallen.",
+      "from": "itrupp@example.org",
+      "date": "2026-05-16 14:58:21.774485",
+      "clusters": [
+        "Support"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen unklaren Betreff und keinen Inhalt, was auf eine m\u00f6gliche technische St\u00f6rung oder ein fehlgeleitetes Anliegen hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender bitten, den Zweck der E-Mail zu kl\u00e4ren.",
+        "Nach weiteren Informationen fragen."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "112",
+      "subject": "Daran also wichtig Haare Meer ihm zusammen offen besser Vogel.",
+      "from": "friedrich-karl30@example.net",
+      "date": "2026-05-16 14:58:21.775485",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "113",
+      "subject": "Lesen verstehen nah den vorbei wo Hand geh\u00f6ren.",
+      "from": "paul-gerhard78@example.org",
+      "date": "2026-05-16 14:58:21.776986",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen sichtbaren Inhalt, was auf eine unklare oder potenziell Spam-artige Nachricht hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender \u00fcberpr\u00fcfen (paul-gerhard78@example.org)",
+        "Inhaltsinhalte pr\u00fcfen, falls Kontext bekannt ist"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "114",
+      "subject": "Fast ich gehen verlieren ging Apfel warm hei\u00dfen sch\u00f6n Gott Schule fragen rot.",
+      "from": "michel43@example.com",
+      "date": "2026-05-16 14:58:21.778486",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und sinnlosen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "115",
+      "subject": "Sitzen denn Wasser Stein.",
+      "from": "xsaeuberlich@example.org",
+      "date": "2026-05-16 14:58:21.779485",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "116",
+      "subject": "Wohnung jung rot zwischen fertig gro\u00df dunkel Fenster.",
+      "from": "august40@example.com",
+      "date": "2026-05-16 14:58:21.780985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren Betreff, der m\u00f6glicherweise eine Immobilienanfrage betrifft.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "117",
+      "subject": "Gar gern Katze noch wichtig.",
+      "from": "luzie50@example.com",
+      "date": "2026-05-16 14:58:21.782484",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen vagen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "118",
+      "subject": "Voll f\u00fcr Flasche denn oder.",
+      "from": "gerd53@example.net",
+      "date": "2026-05-16 14:58:21.783986",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen sehr kurzen und unverst\u00e4ndlichen Betreff ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "119",
+      "subject": "Sp\u00e4ter zehn kann dumm vergessen wollen.",
+      "from": "tuerkan61@example.com",
+      "date": "2026-05-16 14:58:21.785487",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "120",
+      "subject": "Mit T\u00fcr krank finden Boden Fahrrad tun Bein hinter nah.",
+      "from": "loosmarica@example.org",
+      "date": "2026-05-16 14:58:21.787486",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "121",
+      "subject": "Gehen trinken fast schon Wissen schaffen Ding Gesicht.",
+      "from": "ngumprich@example.com",
+      "date": "2026-05-16 14:58:21.789486",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "122",
+      "subject": "Bin endlich k\u00f6nnen Licht Schwester.",
+      "from": "rohtkarl-hans@example.net",
+      "date": "2026-05-16 14:58:21.791485",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen sehr vagen und schwer verst\u00e4ndlichen Betreff und keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "123",
+      "subject": "Rufen nie ganz drei sagen gestern vielleicht.",
+      "from": "rtrueb@example.org",
+      "date": "2026-05-16 14:58:21.792485",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und kryptischen Betreff ohne erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "124",
+      "subject": "Monate Fisch suchen Beispiel machen.",
+      "from": "heiderosepohl@example.net",
+      "date": "2026-05-16 14:58:21.793985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen vagen Betreff und keinen erkennbaren Inhalt, der auf ein spezifisches Thema hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Themas bitten."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "125",
+      "subject": "Jung Polizei k\u00f6nnen bald fertig.",
+      "from": "ruppersbergerreingard@example.org",
+      "date": "2026-05-16 14:58:21.794985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail k\u00fcndigt vage an, dass etwas bez\u00fcglich der Polizei bald fertig sein wird.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Nachfragen, worauf sich 'Jung Polizei' bezieht und was genau fertig werden soll."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "126",
+      "subject": "Garten f\u00fchren schlimm Bein M\u00e4dchen.",
+      "from": "zlachmann@example.org",
+      "date": "2026-05-16 14:58:21.796486",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und nicht zusammenh\u00e4ngenden Betreff, ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "127",
+      "subject": "Katze nie scheinen vom \u00fcber Onkel.",
+      "from": "kochlouis@example.com",
+      "date": "2026-05-16 14:58:21.797986",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "128",
+      "subject": "Minute ihr finden Ding.",
+      "from": "hendrik53@example.com",
+      "date": "2026-05-16 14:58:21.799485",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen sehr vagen Betreff und keinen Inhalt, was auf eine unklare Kommunikation hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "129",
+      "subject": "Selbst wenig weinen Weg dauern vom sagen bekommen Ende kalt alt las\r\n will.",
+      "from": "kostolzingundel@example.net",
+      "date": "2026-05-16 14:58:21.800985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "130",
+      "subject": "Andere schwarz nein ruhig Sohn.",
+      "from": "hrudolph@example.com",
+      "date": "2026-05-16 14:58:21.801985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kurzen und unklaren Text ohne erkennbaren Kontext.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "131",
+      "subject": "Schluss Angst Blume kann schwer weinen.",
+      "from": "geislerkristin@example.org",
+      "date": "2026-05-16 14:58:21.803484",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "132",
+      "subject": "T\u00fcr lassen unter.",
+      "from": "leylajunitz@example.net",
+      "date": "2026-05-16 14:58:21.804985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur den sehr kurzen Betreff \"T\u00fcr lassen unter\" ohne weiteren Kontext.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Nachfragen, was mit dem Betreff gemeint ist."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "133",
+      "subject": "Sommer Glas reiten Platz See erkl\u00e4ren.",
+      "from": "hornichhans-dietrich@example.net",
+      "date": "2026-05-16 14:58:21.806485",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen vagen Betreff, der keinen klaren Kontext liefert.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Themas bitten."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "134",
+      "subject": "Noch lernen dazu packen sie hier.",
+      "from": "werneckemarga@example.com",
+      "date": "2026-05-16 14:58:21.807987",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt lediglich einen provokanten Betreff und keinen weiteren Inhalt.",
+      "sentiment": "negativ",
+      "actionable": [
+        "Keine spezifischen Aktionen erforderlich, da der Inhalt leer ist."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "135",
+      "subject": "Wird weg mich sitzen Glas.",
+      "from": "cilly05@example.net",
+      "date": "2026-05-16 14:58:21.809486",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "136",
+      "subject": "St\u00fcck dir letzte nur schwimmen wichtig.",
+      "from": "michabaehr@example.net",
+      "date": "2026-05-16 14:58:21.811488",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen sehr kryptischen Betreff und keinen erkennbaren Inhalt, was auf eine unklare oder fehlerhafte Kommunikation hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Betreffs und Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "137",
+      "subject": "Die davon nach helfen Polizei einigen lassen darin.",
+      "from": "willykoehler@example.net",
+      "date": "2026-05-16 14:58:21.812990",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen und unverst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "138",
+      "subject": "Spiel sitzen lie\u00df neu gut Bauer Zug \u00fcber lie\u00df.",
+      "from": "fliegnerbayram@example.org",
+      "date": "2026-05-16 14:58:21.814986",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "139",
+      "subject": "Bleiben schlafen Schuh drehen.",
+      "from": "ohaenel@example.org",
+      "date": "2026-05-16 14:58:21.816485",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "140",
+      "subject": "Gr\u00fcn stehen fangen sitzen fahren.",
+      "from": "hroht@example.com",
+      "date": "2026-05-16 14:58:21.817985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "141",
+      "subject": "Ging legen Geld Flasche.",
+      "from": "yloechel@example.org",
+      "date": "2026-05-16 14:58:21.819485",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "142",
+      "subject": "Wer Stein unten damit einige sollen rennen.",
+      "from": "sputz@example.org",
+      "date": "2026-05-16 14:58:21.820485",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "143",
+      "subject": "Zusammen wir aus.",
+      "from": "davidsanne-katrin@example.org",
+      "date": "2026-05-16 14:58:21.821985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail ist sehr kurz und enth\u00e4lt keinen erkennbaren Inhalt oder Kontext.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "144",
+      "subject": "Schwimmen setzen sehr Vater Glas Bein Geburtstag gerade.",
+      "from": "hermighausenjohan@example.net",
+      "date": "2026-05-16 14:58:21.822985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren und sinnlosen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "145",
+      "subject": "Traurig schreiben schlafen Mama.",
+      "from": "agata32@example.net",
+      "date": "2026-05-16 14:58:21.824484",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail ist sehr kurz und scheint eine private Nachricht zu sein, die keinen klaren Kontext liefert.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "146",
+      "subject": "Denken drei fr\u00fcher See wird Vogel bleiben fehlen Auto machen tief Auge.",
+      "from": "trommlersimon@example.org",
+      "date": "2026-05-16 14:58:21.825985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen unsinnigen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "147",
+      "subject": "M\u00f6glich Sonntag oft Monat.",
+      "from": "ilse37@example.net",
+      "date": "2026-05-16 14:58:21.827487",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "148",
+      "subject": "Angst Stein neu vorbei bringen schwarz rufen.",
+      "from": "romuald76@example.org",
+      "date": "2026-05-16 14:58:21.828486",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "149",
+      "subject": "Erst Schluss.",
+      "from": "helgekramer@example.com",
+      "date": "2026-05-16 14:58:21.829987",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt lediglich einen sehr knappen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "150",
+      "subject": "Her dich kein warm jeder.",
+      "from": "ladeckwiltrud@example.com",
+      "date": "2026-05-16 14:58:21.831485",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "151",
+      "subject": "Teller Pferd.",
+      "from": "sigfried95@example.net",
+      "date": "2026-05-16 14:58:21.832484",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen sehr vagen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "152",
+      "subject": "Endlich waschen Sch\u00fcler weiter Apfel.",
+      "from": "eschmiedecke@example.org",
+      "date": "2026-05-16 14:58:21.833985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen sehr vagen und unklaren Betreff, der keinen erkennbaren Kontext liefert.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "153",
+      "subject": "Flasche Boden ihm bringen.",
+      "from": "halina17@example.net",
+      "date": "2026-05-16 14:58:21.834985",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kurzen und unklaren Betreff, der keine spezifische Handlung oder Information vermittelt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "154",
+      "subject": "Den oder fiel waschen fangen.",
+      "from": "enricodavids@example.com",
+      "date": "2026-05-16 14:58:21.836487",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt keinen erkennbaren Inhalt und scheint sehr informell zu sein.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "155",
+      "subject": "Polizei nennen ein darauf Sonntag ist Geld.",
+      "from": "zweimer@example.com",
+      "date": "2026-05-16 14:58:21.837987",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff, der keinen klaren Kontext liefert.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender kontaktieren und um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "156",
+      "subject": "Daran Platz davon gl\u00fccklich dabei finden h\u00f6ren.",
+      "from": "mustafareuter@example.org",
+      "date": "2026-05-16 14:58:21.839487",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen vagen Betreff und keinen weiteren Inhalt, was auf eine unklare Kommunikation hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Nachfragen, um den Kontext der Nachricht zu verstehen."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "157",
+      "subject": "Vergessen neben hei\u00df Freund fahren ging.",
+      "from": "thies95@example.org",
+      "date": "2026-05-16 14:58:21.840987",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "158",
+      "subject": "Lachen m\u00fcssen davon Junge Arzt sitzen geh\u00f6ren Affe besser wirklich.",
+      "from": "dorotheetrommler@example.com",
+      "date": "2026-05-16 14:58:21.841984",
+      "clusters": [],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender kontaktieren, um den Zweck der E-Mail zu kl\u00e4ren."
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "159",
+      "subject": "Wohnung m\u00fcde traurig Berg.",
+      "from": "hkraus@example.com",
+      "date": "2026-05-16 14:58:21.843488",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und unklaren Betreff ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Anliegens bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "160",
+      "subject": "Erkl\u00e4ren gelb dick werden gern warm neben traurig ja.",
+      "from": "whaenel@example.net",
+      "date": "2026-05-16 14:58:21.844988",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen und wenig verst\u00e4ndlichen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "161",
+      "subject": "Stunde gegen zur dabei die denken darauf reich mit St\u00fcck frei.",
+      "from": "xspiess@example.net",
+      "date": "2026-05-16 14:58:21.846488",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und schwer verst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung der Nachricht bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "162",
+      "subject": "Bin Schnee jeder sieben beide mit andere werden Dorf halten Ende\r\n dick.",
+      "from": "francesca22@example.com",
+      "date": "2026-05-16 14:58:21.847987",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung der Nachricht bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "163",
+      "subject": "Lehrer Zeit Geld wenn Schluss Eltern las Vater Weihnachten ging\r\n nehmen zum.",
+      "from": "steckeltillmann@example.org",
+      "date": "2026-05-16 14:58:21.848989",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unvollst\u00e4ndigen Betreff, der keinen klaren Kontext liefert.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "164",
+      "subject": "Schwer h\u00e4ngen Schuh Sache heraus erkl\u00e4ren schwer schwimmen einigen.",
+      "from": "iernst@example.com",
+      "date": "2026-05-16 14:58:21.850488",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "165",
+      "subject": "Nah gerade.",
+      "from": "anne69@example.com",
+      "date": "2026-05-16 14:58:21.853991",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen sehr kurzen und unklaren Betreff ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "166",
+      "subject": "Ihr Fu\u00df ob immer Mann Tier sie zur\u00fcck viel schlecht.",
+      "from": "schollgudula@example.net",
+      "date": "2026-05-16 14:58:21.855488",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren und grammatikalisch fehlerhaften Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "167",
+      "subject": "Verstecken Essen Meer M\u00e4dchen durch.",
+      "from": "weihmannsofie@example.org",
+      "date": "2026-05-16 14:58:21.856488",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "168",
+      "subject": "F\u00fcnf auf wir Haare und gr\u00fcn Leben nimmt m\u00f6gen.",
+      "from": "piepersigrid@example.org",
+      "date": "2026-05-16 14:58:21.857996",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "169",
+      "subject": "Geschichte vier antworten wird.",
+      "from": "toralf17@example.org",
+      "date": "2026-05-16 14:58:21.859497",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen sehr vagen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "170",
+      "subject": "Schwester Glas Wasser Herr schlimm.",
+      "from": "fritschhelen@example.com",
+      "date": "2026-05-16 14:58:21.860997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "171",
+      "subject": "Haus Gott fr\u00f6hlich schwimmen Apfel drehen.",
+      "from": "heinzhertrampf@example.com",
+      "date": "2026-05-16 14:58:21.862496",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "172",
+      "subject": "Selbst da dort Uhr vier Uhr Pferd Zeit Fahrrad lieb.",
+      "from": "jopichklaus-dieter@example.net",
+      "date": "2026-05-16 14:58:21.863997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und keinen inhaltlichen Text.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "173",
+      "subject": "Minute nass gab Auto Wetter sich.",
+      "from": "wernerheinz-gerd@example.org",
+      "date": "2026-05-16 14:58:21.864997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "174",
+      "subject": "Klein mal \u00f6ffnen Hilfe her Lehrer stehen gewinnen Milch.",
+      "from": "rtrommler@example.net",
+      "date": "2026-05-16 14:58:21.866496",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender kontaktieren, um Klarheit \u00fcber den Zweck der E-Mail zu erhalten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "175",
+      "subject": "Ding erz\u00e4hlen noch endlich danach wissen.",
+      "from": "vanessa47@example.net",
+      "date": "2026-05-16 14:58:21.867997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail ist sehr vage und enth\u00e4lt keinen klaren Inhalt oder Anhang.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Nachfragen, um den Kontext der Nachricht zu verstehen."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "176",
+      "subject": "Da baden oben dort sollen Meer Familie.",
+      "from": "mentzelbrit@example.org",
+      "date": "2026-05-16 14:58:21.868998",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren Betreff und keinen weiteren Inhalt, was auf eine Verwirrung oder einen Tippfehler hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "177",
+      "subject": "Lehrer schauen gerade dem Musik sieht.",
+      "from": "sauermarcel@example.com",
+      "date": "2026-05-16 14:58:21.870497",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen vagen Betreff \u00fcber Musik, ohne weiteren Kontext oder Anhang.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "178",
+      "subject": "Schule Himmel f\u00e4hrt Mutter.",
+      "from": "hethurburkhardt@example.com",
+      "date": "2026-05-16 14:58:21.871996",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen vagen Betreff, der auf eine schulische Angelegenheit hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Kontext erfragen, um den Zweck der Nachricht zu verstehen."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "179",
+      "subject": "Nun Kopf leise den deshalb warum.",
+      "from": "valerij23@example.org",
+      "date": "2026-05-16 14:58:21.872996",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "180",
+      "subject": "Kommen Dorf Bruder.",
+      "from": "abrahamherrmann@example.com",
+      "date": "2026-05-16 14:58:21.874496",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail ist sehr kurz und enth\u00e4lt nur den informellen Betreff \"Kommen Dorf Bruder.\"",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "181",
+      "subject": "Seite Musik steigen immer jetzt Brief bei\u00dfen.",
+      "from": "juettnerolga@example.com",
+      "date": "2026-05-16 14:58:21.875997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "182",
+      "subject": "Liegen dauern schon Frau nass drehen.",
+      "from": "bmitschke@example.org",
+      "date": "2026-05-16 14:58:21.876996",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Dringend um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "183",
+      "subject": "Aus Bruder war Freund bauen alle ich weg Hund brauchen setzen.",
+      "from": "sergej51@example.com",
+      "date": "2026-05-16 14:58:21.878500",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen unsinnigen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "184",
+      "subject": "Fast denken alt an Lehrerin Luft fast sofort wo Monate Erde.",
+      "from": "ziegerthans-bernd@example.org",
+      "date": "2026-05-16 14:58:21.879496",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "185",
+      "subject": "Schuh Mann kaufen hat.",
+      "from": "atzlerkilian@example.net",
+      "date": "2026-05-16 14:58:21.880998",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen Betreff und keinen Inhalt, der eine klare Zuordnung erlaubt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Anliegens bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "186",
+      "subject": "Drei Fisch.",
+      "from": "mhethur@example.net",
+      "date": "2026-05-16 14:58:21.882497",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt lediglich einen sehr vagen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "187",
+      "subject": "Winter Vogel einige nimmt schreien.",
+      "from": "susanna04@example.net",
+      "date": "2026-05-16 14:58:21.883997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen unklaren Betreff und keinen erkennbaren Inhalt, der einer bestimmten Kategorie zugeordnet werden kann.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "188",
+      "subject": "Gesicht gut sich will jeder drehen vergessen.",
+      "from": "nikolajtextor@example.org",
+      "date": "2026-05-16 14:58:21.884995",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und unklaren Betreff ohne weiteren Kontext.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "189",
+      "subject": "Unser Stunde dick dazu Spiel Hilfe stehen wenig von Angst dabei.",
+      "from": "suessebierrahel@example.net",
+      "date": "2026-05-16 14:58:21.886496",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender kontaktieren, um Klarheit \u00fcber den Zweck der E-Mail zu erhalten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "190",
+      "subject": "Darauf darauf sollen nah halten Opa Geschichte.",
+      "from": "hwalter@example.net",
+      "date": "2026-05-16 14:58:21.887999",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "191",
+      "subject": "Arbeit fertig Meer zusammen gar Tier dick wie kann packen.",
+      "from": "alessandromartin@example.com",
+      "date": "2026-05-16 14:58:21.889002",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "192",
+      "subject": "Sofort unter einmal endlich Tag Angst merken Schwester schlagen dumm nat\u00fcrlich nat\u00fcrlich ganz.",
+      "from": "paffrathalfonso@example.org",
+      "date": "2026-05-16 14:58:21.890495",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und schwer verst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "193",
+      "subject": "Fisch noch schaffen halbe nat\u00fcrlich Mutter Monate sein Spa\u00df Junge finden fast.",
+      "from": "tbarth@example.net",
+      "date": "2026-05-16 14:58:21.891495",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "194",
+      "subject": "Ging zu noch suchen hinter Nase Auto zur Loch Luft deshalb pl\u00f6tzlich noch.",
+      "from": "christophmercedes@example.com",
+      "date": "2026-05-16 14:58:21.892996",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff, ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Dringend um Kl\u00e4rung des Anliegens bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "195",
+      "subject": "Geburtstag Ball denken.",
+      "from": "qhecker@example.org",
+      "date": "2026-05-16 14:58:21.894497",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail dient der Erinnerung oder Planung bez\u00fcglich eines Geburtstagsballs.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Details zum Geburtstag Ball kl\u00e4ren (Datum, Ort etc.)"
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "196",
+      "subject": "Schuh Schnee Lehrerin Katze Sch\u00fcler.",
+      "from": "preuter@example.com",
+      "date": "2026-05-16 14:58:21.895496",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und unstrukturierten Betreff ohne erkennbaren Kontext.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Themas bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "197",
+      "subject": "Brot m\u00fcde Milch verlieren erkl\u00e4ren.",
+      "from": "kraushaarantonietta@example.com",
+      "date": "2026-05-16 14:58:21.896497",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt eine vage Frage zu einem wissenschaftlichen oder allt\u00e4glichen Ph\u00e4nomen, das nicht klar definiert ist.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Themas bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "198",
+      "subject": "Fertig Tisch See dein.",
+      "from": "udo38@example.org",
+      "date": "2026-05-16 14:58:21.897996",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail ist sehr kurz und enth\u00e4lt lediglich einen Betreff, der auf ein fertiges M\u00f6belst\u00fcck hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Nachfragen, worauf sich die Fertigstellung bezieht."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "199",
+      "subject": "Geh\u00f6ren gro\u00df Boden doch Essen Land.",
+      "from": "emine55@example.org",
+      "date": "2026-05-16 14:58:21.898997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "200",
+      "subject": "Zeitung sch\u00f6n.",
+      "from": "soedingpetra@example.com",
+      "date": "2026-05-16 14:58:21.900497",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt lediglich den Betreff \"Zeitung sch\u00f6n\" ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "201",
+      "subject": "Fr\u00f6hlich Hilfe weiter auch.",
+      "from": "enver41@example.com",
+      "date": "2026-05-16 14:58:21.902497",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen vagen Betreff und keinen weiteren Inhalt, was auf eine unklare Absicht hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Anliegens bitten."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "202",
+      "subject": "Turnen Licht f\u00fcr der drei werfen Hase ging rund rund Tier zum.",
+      "from": "tplath@example.com",
+      "date": "2026-05-16 14:58:21.903997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren und grammatikalisch fehlerhaften Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "203",
+      "subject": "Blume Weihnachten jeder packen lernen verkaufen dann erkl\u00e4ren.",
+      "from": "krista94@example.com",
+      "date": "2026-05-16 14:58:21.905497",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Dringende Kl\u00e4rung des Verfassers bez\u00fcglich des eigentlichen Anliegens der Nachricht."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "204",
+      "subject": "Familie glauben Weg Sohn schreien Sonntag in.",
+      "from": "gstiffel@example.net",
+      "date": "2026-05-16 14:58:21.906997",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und emotional klingenden Betreff, der auf ein privates famili\u00e4res Ereignis hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Nachfragen, um den Kontext des Betreffs zu verstehen."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "205",
+      "subject": "Mal ich Gott sind n\u00e4chste nur dauern hinein Spiel leise.",
+      "from": "jgnatz@example.com",
+      "date": "2026-05-16 14:58:21.907997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unleserlichen Betreff sowie keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "206",
+      "subject": "Licht was fallen Bauer nennen.",
+      "from": "schoenlandelsbeth@example.net",
+      "date": "2026-05-16 14:58:21.909496",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "207",
+      "subject": "Feuer Luft Arzt Fu\u00df schon nun oben nennen sp\u00e4ter machen.",
+      "from": "deberth@example.net",
+      "date": "2026-05-16 14:58:21.910496",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "208",
+      "subject": "Vielleicht beim sein Blume Minute unten n\u00e4chste dem nennen.",
+      "from": "bgraf@example.net",
+      "date": "2026-05-16 14:58:21.911996",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "209",
+      "subject": "Kopf Blume wohl sich Mensch Wetter Nacht fiel jetzt da bald schlecht.",
+      "from": "catrinholzapfel@example.com",
+      "date": "2026-05-16 14:58:21.913497",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und schwer verst\u00e4ndlichen Text ohne erkennbaren Kontext.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "210",
+      "subject": "Hei\u00dfen Spiel tun Ende leicht.",
+      "from": "amelie83@example.com",
+      "date": "2026-05-16 14:58:21.914999",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen sehr vagen und unklaren Betreff ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "211",
+      "subject": "Andere Apfel Licht Apfel Affe lie\u00df.",
+      "from": "vsteckel@example.com",
+      "date": "2026-05-16 14:58:21.916496",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen sehr vagen und unklaren Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "212",
+      "subject": "Dorf fiel gef\u00e4hrlich ihn Lehrerin.",
+      "from": "gboucsein@example.net",
+      "date": "2026-05-16 14:58:21.917996",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und alarmierenden Betreff, der keine klare Handlung oder den Kontext liefert.",
+      "sentiment": "negativ",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Sachverhalts bitten",
+        "Kontext und Details zur Situation erfragen"
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "213",
+      "subject": "Gab wei\u00df jeder antworten versuchen beide.",
+      "from": "cristina00@example.org",
+      "date": "2026-05-16 14:58:21.919497",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen vagen Betreff und keinen erkennbaren Inhalt, der eine klare Zuordnung erlaubt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Anliegens bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "214",
+      "subject": "Spa\u00df leise suchen rund im am fiel Leben.",
+      "from": "ikeudel@example.org",
+      "date": "2026-05-16 14:58:21.920497",
+      "clusters": [],
+      "summary": "Die E-Mail hat einen vagen und unklaren Betreff sowie keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "215",
+      "subject": "Gab wie turnen durch erschrecken fr\u00f6hlich wie leben sehr Schwester.",
+      "from": "solveigbutte@example.net",
+      "date": "2026-05-16 14:58:21.921997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "216",
+      "subject": "Wichtig Geschenk merken rechnen hin doch fangen fast.",
+      "from": "ngerlach@example.net",
+      "date": "2026-05-16 14:58:21.923997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "217",
+      "subject": "Sieben als beide Mutter fest.",
+      "from": "anna-luise78@example.net",
+      "date": "2026-05-16 14:58:21.925497",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt keinen erkennbaren Inhalt und scheint einen unklaren Betreff zu haben.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "218",
+      "subject": "Wiese als sehr leicht zum m\u00fcde noch lachen Hunger.",
+      "from": "elisa60@example.net",
+      "date": "2026-05-16 14:58:21.927996",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und unklaren Betreff, ohne sichtbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "219",
+      "subject": "Schule Sonne Sch\u00fcler Ding Fu\u00df Stelle.",
+      "from": "hans-ulrichwiek@example.org",
+      "date": "2026-05-16 14:58:21.929497",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen sehr kryptischen Betreff und keinen Inhalt, was auf eine unklare oder fehlerhafte Kommunikation hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten",
+        "Betreff \u00fcberpr\u00fcfen lassen"
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "220",
+      "subject": "Besser als dann m\u00f6gen Ende.",
+      "from": "itroest@example.com",
+      "date": "2026-05-16 14:58:21.930496",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "221",
+      "subject": "Zwischen weil im daf\u00fcr Nacht.",
+      "from": "xsteuer@example.org",
+      "date": "2026-05-16 14:58:21.931996",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "222",
+      "subject": "F\u00fcr Fu\u00dfball.",
+      "from": "damarishermighausen@example.org",
+      "date": "2026-05-16 14:58:21.932997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail ist sehr kurz und bezieht sich vage auf Fu\u00dfball.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "223",
+      "subject": "Andere her merken ja leise fangen.",
+      "from": "koch-iigreta@example.org",
+      "date": "2026-05-16 14:58:21.934496",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen vagen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "224",
+      "subject": "\u00dcberall unten Sonntag scheinen davon es kommen.",
+      "from": "karzoswald@example.org",
+      "date": "2026-05-16 14:58:21.935996",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und kryptischen Betreff ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "225",
+      "subject": "Bleiben was eigentlich stehen n\u00e4chste nie.",
+      "from": "rwirth@example.com",
+      "date": "2026-05-16 14:58:21.937498",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt keinen klaren Inhalt und ist schwer zu interpretieren.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "226",
+      "subject": "Nase rechnen drei lieb gut darin fest.",
+      "from": "aweiss@example.net",
+      "date": "2026-05-16 14:58:21.938998",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen unsinnigen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "227",
+      "subject": "Gerade immer Wiese dunkel fest lange noch.",
+      "from": "ejaekel@example.com",
+      "date": "2026-05-16 14:58:21.940496",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kurzen, unklaren Text ohne erkennbaren Kontext.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "228",
+      "subject": "Spa\u00df St\u00fcck bald hoch wer Bruder auch heraus ruhig.",
+      "from": "jladeck@example.net",
+      "date": "2026-05-16 14:58:21.941995",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen und unklaren Betreff sowie keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "229",
+      "subject": "Noch Haare baden gef\u00e4hrlich rund Dorf schwimmen.",
+      "from": "cosima81@example.net",
+      "date": "2026-05-16 14:58:21.943498",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "230",
+      "subject": "Es Auto Leute bei Geschichte kam.",
+      "from": "hoffmannalfredo@example.net",
+      "date": "2026-05-16 14:58:21.944499",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "231",
+      "subject": "Die Welt Gl\u00fcck bleiben Milch neben.",
+      "from": "huelya10@example.net",
+      "date": "2026-05-16 14:58:21.946501",
+      "clusters": [],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "232",
+      "subject": "Hinein helfen fertig hin lieb darin.",
+      "from": "brianmitschke@example.com",
+      "date": "2026-05-16 14:58:21.947997",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen sehr vagen und kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "233",
+      "subject": "Fertig wohl Angst Angst Spa\u00df sch\u00f6n Zeitung.",
+      "from": "qgotthard@example.net",
+      "date": "2026-05-16 14:58:21.949000",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "234",
+      "subject": "Stunde ins d\u00fcrfen weil schwarz sehen f\u00fcr.",
+      "from": "nhahn@example.com",
+      "date": "2026-05-16 14:58:21.950501",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren Betreff und Inhalt, der keine eindeutige Zuordnung erlaubt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Anliegens bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "235",
+      "subject": "Einmal bei Welt Schwester ob richtig.",
+      "from": "muelichengesche@example.org",
+      "date": "2026-05-16 14:58:21.952000",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen vagen Betreff und keinen weiteren Inhalt, was auf eine unklare Anfrage hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Anliegens bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "236",
+      "subject": "Wieder Woche daran heraus kurz fragen er ja legen.",
+      "from": "felix10@example.org",
+      "date": "2026-05-16 14:58:21.953499",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail ist sehr kurz und unklar formuliert, was auf eine dringende Nachfrage hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Anliegens bitten."
+      ],
+      "extracted_data": {},
+      "importance": 4,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "237",
+      "subject": "Nie bei\u00dfen seit.",
+      "from": "frankaschulz@example.org",
+      "date": "2026-05-16 14:58:21.954999",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen sehr kurzen und unklaren Betreff ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "238",
+      "subject": "Anfangen dunkel hin traurig ihm neu.",
+      "from": "mona69@example.net",
+      "date": "2026-05-16 14:58:21.956498",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und emotional klingenden Betreff, ohne sichtbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "239",
+      "subject": "Ball zehn Sache laufen Junge.",
+      "from": "staudelili@example.org",
+      "date": "2026-05-16 14:58:21.958007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und unklaren Betreff ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "240",
+      "subject": "Den daf\u00fcr Freund fragen im.",
+      "from": "kwernecke@example.com",
+      "date": "2026-05-16 14:58:21.959007",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen sehr kurzen und unklaren Betreff, der auf eine private Nachfrage hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "241",
+      "subject": "Sohn los Eltern unten d\u00fcrfen.",
+      "from": "jochen17@example.net",
+      "date": "2026-05-16 14:58:21.961006",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail scheint eine private Mitteilung zu sein, die sich auf die Anwesenheit des Sohnes und der Eltern bezieht.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "242",
+      "subject": "Zehn wird helfen kein bleiben.",
+      "from": "rohtbruno@example.net",
+      "date": "2026-05-16 14:58:21.962008",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen kryptischen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "243",
+      "subject": "Am letzte sieben dort beide nat\u00fcrlich tot.",
+      "from": "gmaelzer@example.net",
+      "date": "2026-05-16 14:58:21.963506",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kurzen und kryptischen Text ohne erkennbaren Kontext.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Nachfragen, um den Kontext des Satzes zu verstehen."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "244",
+      "subject": "Lehrer schwarz pl\u00f6tzlich Vater finden der.",
+      "from": "mercedes77@example.com",
+      "date": "2026-05-16 14:58:21.965007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "245",
+      "subject": "Gelb h\u00e4ngen tief halbe.",
+      "from": "anton86@example.com",
+      "date": "2026-05-16 14:58:21.966007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen sehr vagen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "246",
+      "subject": "Zu Wissen Schiff Teller Teller.",
+      "from": "schmiedttorsten@example.net",
+      "date": "2026-05-16 14:58:21.967506",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und unklaren Betreff ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Dringend um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "247",
+      "subject": "Aber Geschichte blau Musik laut steigen hei\u00df.",
+      "from": "siglinde02@example.com",
+      "date": "2026-05-16 14:58:21.969007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "248",
+      "subject": "Er kennen reich Hunger vor Pferd ihn Lehrer mal steigen kalt.",
+      "from": "laszlo12@example.com",
+      "date": "2026-05-16 14:58:21.970507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen unsinnigen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender kontaktieren, um Klarheit \u00fcber den Zweck der E-Mail zu erhalten."
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "249",
+      "subject": "Geh\u00f6ren viel rufen \u00f6ffnen eigentlich sagen nichts Milch.",
+      "from": "heini13@example.org",
+      "date": "2026-05-16 14:58:21.972008",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen unsinnigen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "250",
+      "subject": "Alt weil schwarz ging fliegen.",
+      "from": "jasmin26@example.net",
+      "date": "2026-05-16 14:58:21.973509",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen vagen und unklaren Betreff, ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "251",
+      "subject": "Damit Loch weiter andere.",
+      "from": "swilms@example.org",
+      "date": "2026-05-16 14:58:21.974508",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt keinen klaren Inhalt und ist schwer zu interpretieren.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "252",
+      "subject": "Kochen Gl\u00fcck neu heraus geben Mensch nat\u00fcrlich haben.",
+      "from": "bjoern35@example.com",
+      "date": "2026-05-16 14:58:21.976008",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "253",
+      "subject": "Nacht um Berg fr\u00fcher.",
+      "from": "tuerkan13@example.org",
+      "date": "2026-05-16 14:58:21.977507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen vagen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "254",
+      "subject": "Dick jung Stein freuen fr\u00f6hlich.",
+      "from": "vschomber@example.org",
+      "date": "2026-05-16 14:58:21.978507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "255",
+      "subject": "Die Schuh bleiben.",
+      "from": "heinregine@example.org",
+      "date": "2026-05-16 14:58:21.980007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt lediglich den Betreff \"Die Schuh bleiben\" ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "256",
+      "subject": "Bruder Affe machen sehr sch\u00f6n kein.",
+      "from": "donata15@example.com",
+      "date": "2026-05-16 14:58:21.981007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unklaren Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Anliegens bitten."
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "257",
+      "subject": "M\u00f6gen Hilfe wei\u00df kalt K\u00fcche warum denn aber damit.",
+      "from": "magritschleich@example.com",
+      "date": "2026-05-16 14:58:21.982507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "258",
+      "subject": "Zusammen sieben Herz lassen aus mich.",
+      "from": "binnerfranz-josef@example.org",
+      "date": "2026-05-16 14:58:21.984009",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen sehr vagen und emotional aufgeladenen Betreff ohne weiteren Inhalt.",
+      "sentiment": "negativ",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "259",
+      "subject": "Maus kann klein.",
+      "from": "eleonore08@example.com",
+      "date": "2026-05-16 14:58:21.985509",
+      "clusters": [
+        "Support"
+      ],
+      "summary": "Die E-Mail ist sehr kurz und deutet auf ein Problem mit der Maus hin, ohne weitere Details zu nennen.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Nachfragen, um das genaue Problem mit der Maus zu verstehen."
+      ],
+      "extracted_data": {},
+      "importance": 4,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "260",
+      "subject": "Nah von einfach weg Freude Kopf oben.",
+      "from": "jernst@example.org",
+      "date": "2026-05-16 14:58:21.987007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen sehr vagen und emotionalen Betreff, enth\u00e4lt aber keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "261",
+      "subject": "Drehen schenken.",
+      "from": "kevinhenk@example.net",
+      "date": "2026-05-16 14:58:21.988007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen vagen Betreff, der auf eine Geschenkidee hindeutet, enth\u00e4lt aber keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "262",
+      "subject": "Immer fangen gerade denken arbeiten.",
+      "from": "taescheleander@example.net",
+      "date": "2026-05-16 14:58:21.989507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt nur einen vagen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "263",
+      "subject": "Lachen Geld mit sagen.",
+      "from": "elly69@example.org",
+      "date": "2026-05-16 14:58:21.990506",
+      "clusters": [],
+      "summary": "Die E-Mail hat einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Zwecks der Nachricht bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "264",
+      "subject": "Tisch Wasser Gl\u00fcck Opa also drehen auch.",
+      "from": "schleichdimitri@example.org",
+      "date": "2026-05-16 14:58:21.992007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "265",
+      "subject": "Minutenmir suchen Eis Meer nie.",
+      "from": "mattiasmuelichen@example.net",
+      "date": "2026-05-16 14:58:21.993506",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "266",
+      "subject": "Bein zusammen.",
+      "from": "kirstenkrebs@example.org",
+      "date": "2026-05-16 14:58:21.995007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen sehr vagen Betreff und keinen Inhalt, was auf eine unklare Kommunikation hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Nachfragen nach dem Kontext des Betreffs 'Bein zusammen'."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "267",
+      "subject": "Steigen kommen Stadt treffen nat\u00fcrlich kaufen.",
+      "from": "curt42@example.net",
+      "date": "2026-05-16 14:58:21.996006",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen unsinnigen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "268",
+      "subject": "Ferien Auge.",
+      "from": "chendriks@example.net",
+      "date": "2026-05-16 14:58:21.997507",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail hat einen vagen Betreff, der auf eine private Mitteilung hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "269",
+      "subject": "Sieht wieder bleiben waschen beide nach singen Geschenk wenn ich\r\n schaffen offen.",
+      "from": "harrietchristoph@example.org",
+      "date": "2026-05-16 14:58:21.998507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren und grammatikalisch fehlerhaften Betreff, ohne erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "270",
+      "subject": "Vergessen rufen Weihnachten mit Bild.",
+      "from": "reinhold68@example.com",
+      "date": "2026-05-16 14:58:22.000007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen vagen Betreff, der auf eine Erinnerung oder ein pers\u00f6nliches Thema hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "271",
+      "subject": "Dumm sonst auch verlieren.",
+      "from": "katarzynajessel@example.net",
+      "date": "2026-05-16 14:58:22.001509",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und negativ klingenden Betreff ohne weiteren Inhalt.",
+      "sentiment": "negativ",
+      "actionable": [
+        "Kontext anfordern, um den Zweck der Nachricht zu verstehen."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "272",
+      "subject": "Geld rot ihr nur Hilfe oft sicher M\u00e4dchen viel die gewinnen warum fr\u00fch.",
+      "from": "mayabriemer@example.com",
+      "date": "2026-05-16 14:58:22.002507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Text ohne erkennbaren Kontext.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "273",
+      "subject": "Dauern Boden Minute Fu\u00dfball.",
+      "from": "klemtottmar@example.net",
+      "date": "2026-05-16 14:58:22.004007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen unklaren Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "274",
+      "subject": "Jetzt Hilfe ihr.",
+      "from": "peggytrubin@example.org",
+      "date": "2026-05-16 14:58:22.005507",
+      "clusters": [
+        "Support"
+      ],
+      "summary": "Die E-Mail ist kurz und bittet um Hilfe, ohne spezifisches Thema oder weitere Details zu nennen.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Nachfragen, um das konkrete Problem zu identifizieren."
+      ],
+      "extracted_data": {},
+      "importance": 4,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "275",
+      "subject": "Lesen Erde Sch\u00fcler sehr pl\u00f6tzlich letzte fest erz\u00e4hlen Polizei Geschichte Monat.",
+      "from": "weimerarne@example.com",
+      "date": "2026-05-16 14:58:22.006506",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung der Nachricht bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "276",
+      "subject": "Stein Seite schlagen sp\u00e4ter Berg m\u00f6glich jetzt hin fehlen ganz.",
+      "from": "gorlitzanna-lena@example.com",
+      "date": "2026-05-16 14:58:22.008509",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt, was auf eine unklare Kommunikation hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Nachfragen nach dem genauen Anliegen des Absenders."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "277",
+      "subject": "Viel Mama Hunger fr\u00fch Vogel Auge ohne zum gro\u00df.",
+      "from": "gutesemra@example.com",
+      "date": "2026-05-16 14:58:22.009507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unklaren Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung der Nachricht bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "278",
+      "subject": "Papa gro\u00df kennen erz\u00e4hlen offen Auge.",
+      "from": "lmartin@example.org",
+      "date": "2026-05-16 14:58:22.011006",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail hat einen sehr vagen und unklaren Betreff, der auf eine private Kommunikation hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "279",
+      "subject": "B\u00f6se See mehr fr\u00fch.",
+      "from": "helga66@example.net",
+      "date": "2026-05-16 14:58:22.012507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "280",
+      "subject": "Las Herr Wald gl\u00fccklich allein Stein Wohnung singen Gl\u00fcck laufen.",
+      "from": "kadetill@example.net",
+      "date": "2026-05-16 14:58:22.013507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen und sinnlosen Betreff, ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "281",
+      "subject": "An Schwester Papa drei zur\u00fcck Zimmer lernen uns kurz scheinen hinein ich.",
+      "from": "mpatberg@example.com",
+      "date": "2026-05-16 14:58:22.015007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff sowie keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "282",
+      "subject": "Nennen kurz ob.",
+      "from": "qbloch@example.com",
+      "date": "2026-05-16 14:58:22.017013",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail ist sehr kurz und fordert lediglich eine kurze R\u00fcckmeldung zum Betreff.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Kontext des Betreffs kl\u00e4ren, um die gew\u00fcnschte Antwort zu geben."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "283",
+      "subject": "Kaufen Fu\u00df ruhig stehen einmal endlich gehen krank h\u00e4ngen drei machen sechs.",
+      "from": "margarethebutte@example.org",
+      "date": "2026-05-16 14:58:22.018509",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unverst\u00e4ndlichen Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "284",
+      "subject": "Warm fr\u00f6hlich schlafen d\u00fcrfen gegen.",
+      "from": "dheidrich@example.net",
+      "date": "2026-05-16 14:58:22.020508",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt keinen erkennbaren Inhalt und ist daher schwer einzuordnen.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "285",
+      "subject": "Halbe n\u00e4mlich Platz n\u00e4mlich etwas richtig von zehn.",
+      "from": "radischkreszenz@example.net",
+      "date": "2026-05-16 14:58:22.022007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und unklaren Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "286",
+      "subject": "Bein hoch Schluss im von fragen kein reiten.",
+      "from": "cmuehle@example.net",
+      "date": "2026-05-16 14:58:22.023507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "287",
+      "subject": "Schnell blau sind Vater Zeitung wer schreien Spiel Oma.",
+      "from": "ahmed82@example.org",
+      "date": "2026-05-16 14:58:22.024510",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "288",
+      "subject": "Gro\u00df fehlen turnen selbst fertig Geburtstag ja weil sieht Affe dort.",
+      "from": "irmtraudvogt@example.net",
+      "date": "2026-05-16 14:58:22.026009",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr unklaren und grammatikalisch fehlerhaften Text, dessen Inhalt nicht eindeutig bestimmbar ist.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender um Kl\u00e4rung des Inhalts bitten"
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "289",
+      "subject": "Hei\u00dfen Bauer darauf immer gro\u00df tot.",
+      "from": "pero62@example.com",
+      "date": "2026-05-16 14:58:22.027507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unklaren Betreff, ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "290",
+      "subject": "Ob man antworten zur dauern b\u00f6se doch baden Rad.",
+      "from": "roskothkarl-ludwig@example.org",
+      "date": "2026-05-16 14:58:22.028507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt, was auf Spam oder eine versehentliche Sendung hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "E-Mail ignorieren oder l\u00f6schen"
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "291",
+      "subject": "Weil Onkel Feuer helfen haben.",
+      "from": "heidrun57@example.org",
+      "date": "2026-05-16 14:58:22.030007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail hat einen sehr vagen und unklaren Betreff, der keinen erkennbaren Kontext liefert.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "292",
+      "subject": "Welt an suchen fliegen hoch sehr schreiben rot dumm.",
+      "from": "boernercord@example.net",
+      "date": "2026-05-16 14:58:22.031508",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und sinnlosen Betreff und keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Absender kontaktieren, um Kl\u00e4rung zu verlangen."
+      ],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "293",
+      "subject": "Einigen Seite los das Klasse Sonntag.",
+      "from": "benthinansgar@example.com",
+      "date": "2026-05-16 14:58:22.033009",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen und unklaren Betreff, der keinen spezifischen Inhalt vermittelt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "294",
+      "subject": "Herz um Herz f\u00fcnf Hase schreien scheinen.",
+      "from": "sandordippel@example.net",
+      "date": "2026-05-16 14:58:22.034508",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und sinnlosen Betreff ohne weiteren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "295",
+      "subject": "Stra\u00dfe damit Fu\u00df kommen Arbeit.",
+      "from": "jobst65@example.com",
+      "date": "2026-05-16 14:58:22.036007",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen vagen Betreff und keinen weiteren Inhalt, was auf eine unklare Kommunikation hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Themas bitten."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "296",
+      "subject": "Alt neu arbeiten laufen vergessen man hinter.",
+      "from": "hholzapfel@example.net",
+      "date": "2026-05-16 14:58:22.037506",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen unklaren Betreff und keinen Inhalt, was auf eine nicht abgeschlossene oder versehentliche Nachricht hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "297",
+      "subject": "Schwester kochen Fenster bleiben.",
+      "from": "ogunpf@example.org",
+      "date": "2026-05-16 14:58:22.040007",
+      "clusters": [
+        "Privat"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr vagen Betreff, der auf ein privates Thema hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "298",
+      "subject": "An zehn Angst rechnen kennen Tag rufen Rad lustig.",
+      "from": "ruben09@example.org",
+      "date": "2026-05-16 14:58:22.041507",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen kryptischen Betreff und keinen erkennbaren Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [],
+      "extracted_data": {},
+      "importance": 1,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "299",
+      "subject": "Weihnachten warm Geburtstag rechnen ruhig Onkel die Feuer wird.",
+      "from": "irmi51@example.org",
+      "date": "2026-05-16 14:58:22.042510",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen sehr kryptischen und unstrukturierten Betreff sowie keinen Inhalt.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Anliegens bitten."
+      ],
+      "extracted_data": {},
+      "importance": 2,
+      "has_attachments": false,
+      "analysis_success": true
+    },
+    {
+      "email_id": "300",
+      "subject": "Stadt andere Baum heraus seit.",
+      "from": "ybloch@example.org",
+      "date": "2026-05-16 14:58:22.044010",
+      "clusters": [
+        "Unbekannt"
+      ],
+      "summary": "Die E-Mail enth\u00e4lt einen unklaren Betreff und keinen weiteren Inhalt, was auf eine nicht eindeutige Kommunikation hindeutet.",
+      "sentiment": "neutral",
+      "actionable": [
+        "Den Absender um Kl\u00e4rung des Inhalts bitten."
+      ],
+      "extracted_data": {},
+      "importance": 3,
+      "has_attachments": false,
+      "analysis_success": true
+    }
+  ],
+  "stats": {
+    "total_emails": 200,
+    "successful_analyses": 199,
+    "failed_analyses": 1,
+    "cluster_distribution": {
+      "Fehler": 1,
+      "Support": 4,
+      "Privat": 15,
+      "Unbekannt": 173
+    },
+    "sentiment_distribution": {
+      "neutral": 196,
+      "negativ": 4
+    },
+    "top_senders": [
+      [
+        "vincenzomeister@example.net",
+        1
+      ],
+      [
+        "stolzealeksej@example.net",
+        1
+      ],
+      [
+        "phermann@example.com",
+        1
+      ],
+      [
+        "corinaheser@example.org",
+        1
+      ],
+      [
+        "wulfruppert@example.org",
+        1
+      ],
+      [
+        "qweiss@example.org",
+        1
+      ],
+      [
+        "ester97@example.org",
+        1
+      ],
+      [
+        "qditschlerin@example.net",
+        1
+      ],
+      [
+        "dsoeding@example.org",
+        1
+      ],
+      [
+        "liebeltzoltan@example.com",
+        1
+      ]
+    ],
+    "important_emails": [],
+    "all_actions": [
+      "Den Absender um Kl\u00e4rung des Inhalts bitten.",
+      "Absender bitten, den Zweck der E-Mail zu kl\u00e4ren.",
+      "Absender kontaktieren, um den Zweck der Nachricht zu kl\u00e4ren.",
+      "Absender bitten, den Zweck der Nachricht zu kl\u00e4ren.",
+      "Den Absender bitten, den Zweck der E-Mail zu kl\u00e4ren.",
+      "Nach weiteren Informationen fragen.",
+      "Absender \u00fcberpr\u00fcfen (paul-gerhard78@example.org)",
+      "Inhaltsinhalte pr\u00fcfen, falls Kontext bekannt ist",
+      "Absender um Kl\u00e4rung des Inhalts bitten",
+      "Absender um Kl\u00e4rung des Inhalts bitten",
+      "Den Absender um Kl\u00e4rung des Inhalts bitten.",
+      "Absender um Kl\u00e4rung des Inhalts bitten",
+      "Den Absender um Kl\u00e4rung des Inhalts bitten.",
+      "Den Absender um Kl\u00e4rung des Themas bitten.",
+      "Nachfragen, worauf sich 'Jung Polizei' bezieht und was genau fertig werden soll.",
+      "Absender um Kl\u00e4rung des Inhalts bitten.",
+      "Den Absender um Kl\u00e4rung des Inhalts bitten.",
+      "Absender um Kl\u00e4rung des Inhalts bitten",
+      "Den Absender um Kl\u00e4rung des Inhalts bitten.",
+      "Nachfragen, was mit dem Betreff gemeint ist."
+    ],
+    "daily_distribution": {
+      "2026-05-16": 200
+    },
+    "emails_with_attachments": 0
+  },
+  "config": {
+    "server": "localhost",
+    "port": 1143,
+    "username": "test@local.test",
+    "password": "password123",
+    "use_imap": true,
+    "lm_url": "http://localhost:1234/v1/chat/completions",
+    "lm_timeout": 60,
+    "lm_max_tokens": 4096,
+    "lm_temperature": 0.3,
+    "max_emails": 200,
+    "clusters": [
+      "Rechnung",
+      "Meeting",
+      "Newsletter",
+      "Support",
+      "Angebot",
+      "Privat"
+    ],
+    "allow_new_clusters": true,
+    "system_prompt": "Du bist ein professioneller E-Mail-Analyst. Analysiere jede E-Mail und gib NUR EIN JSON-Objekt zur\u00fcck, ohne zus\u00e4tzlichen Text.\n\nDas JSON MUSS diese Struktur haben:\n{\n    \"cluster\": \"Hauptcluster aus der Liste oder NEU:NeuerClusterName\",\n    \"clusters\": [\"Cluster1\", \"Cluster2\", \"bis zu 3 Cluster\"],\n    \"summary\": \"Ein Satz Zusammenfassung auf Deutsch\",\n    \"sentiment\": \"positiv|negativ|neutral\",\n    \"actionable\": [\"Aktionspunkt 1\", \"Aktionspunkt 2\"],\n    \"extracted_data\": {\"key\": \"value\"},\n    \"importance\": 1-10\n}\n\nM\u00f6gliche Cluster: {clusters}\nErkl\u00e4re nichts, gib NUR das JSON zur\u00fcck."
+  }
+}

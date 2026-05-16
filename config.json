@@ -1,0 +1,22 @@
+{
+  "server": "localhost",
+  "port": 1143,
+  "username": "test@local.test",
+  "password": "password123",
+  "use_imap": true,
+  "lm_url": "http://localhost:1234/v1/chat/completions",
+  "lm_timeout": 60,
+  "lm_max_tokens": 4096,
+  "lm_temperature": 0.3,
+  "max_emails": 200,
+  "clusters": [
+    "Rechnung",
+    "Meeting",
+    "Newsletter",
+    "Support",
+    "Angebot",
+    "Privat"
+  ],
+  "allow_new_clusters": true,
+  "system_prompt": "Du bist ein professioneller E-Mail-Analyst. Analysiere jede E-Mail und gib NUR EIN JSON-Objekt zurück, ohne zusätzlichen Text.\n\nDas JSON MUSS diese Struktur haben:\n{\n    \"cluster\": \"Hauptcluster aus der Liste oder NEU:NeuerClusterName\",\n    \"clusters\": [\"Cluster1\", \"Cluster2\", \"bis zu 3 Cluster\"],\n    \"summary\": \"Ein Satz Zusammenfassung auf Deutsch\",\n    \"sentiment\": \"positiv|negativ|neutral\",\n    \"actionable\": [\"Aktionspunkt 1\", \"Aktionspunkt 2\"],\n    \"extracted_data\": {\"key\": \"value\"},\n    \"importance\": 1-10\n}\n\nMögliche Cluster: {clusters}\nErkläre nichts, gib NUR das JSON zurück."
+}
