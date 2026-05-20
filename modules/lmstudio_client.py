@@ -1,7 +1,6 @@
 import requests
 import json
 import time
-from datetime import datetime
 
 class LMStudioClient:
     """LM-Studio API Client mit professionellem Error-Handling"""
@@ -13,12 +12,13 @@ class LMStudioClient:
     def check_connection(self):
         """Prüfen ob LM-Studio läuft"""
         try:
-            response = requests.get("http://localhost:1234/v1/models", timeout=5)
+            base_url = self.api_url.replace("/v1/chat/completions", "/v1/models")
+            response = requests.get(base_url, timeout=5)
             return response.status_code == 200
         except:
             return False
     
-    def analyze_email(self, email_data, system_prompt, clusters, max_tokens=4096):
+    def analyze_email(self, email_data, system_prompt, clusters, max_tokens=4096, temperature=0.3):
         """Eine einzelne E-Mail analysieren mit Retry-Logic"""
         
         # E-Mail für Prompt aufbereiten
@@ -43,7 +43,7 @@ Anhänge: {len(email_data['attachments'])} Datei(en)
         payload = {
             "messages": messages,
             "max_tokens": max_tokens,
-            "temperature": 0.3,
+            "temperature": temperature,
             "stream": False
         }
         
@@ -62,7 +62,6 @@ Anhänge: {len(email_data['attachments'])} Datei(en)
                     
                     # JSON aus der Antwort extrahieren
                     try:
-                        # Finde JSON im Text
                         json_start = llm_response.find('{')
                         json_end = llm_response.rfind('}') + 1
                         if json_start != -1 and json_end > json_start:

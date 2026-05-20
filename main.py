@@ -3,6 +3,12 @@ from tkinter import ttk, messagebox, scrolledtext
 import threading
 from pathlib import Path
 import webbrowser
+import sys
+import os
+
+# Stelle sicher, dass das modules-Verzeichnis im Pfad ist
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from modules.utils import setup_logging, ensure_directories
 from modules.config_manager import ConfigManager
 from modules.email_fetcher import EmailFetcher
@@ -17,7 +23,7 @@ class EmailAnalyzerGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("📧 E-Mail Analyzer Pro")
-        self.root.geometry("850x1000")
+        self.root.geometry("850x1050")
         
         # Style
         style = ttk.Style()
@@ -75,6 +81,16 @@ class EmailAnalyzerGUI:
         ttk.Checkbutton(email_frame, text="👁 Zeigen", variable=self.show_password, 
                        command=self._toggle_password).grid(row=4, column=2, padx=5)
         
+        # Timeout-Einstellungen für E-Mail
+        ttk.Label(email_frame, text="Verbindungs-Timeout (Sek.):").grid(row=5, column=0, sticky="w", pady=5)
+        self.email_timeout_entry = ttk.Entry(email_frame, width=10)
+        self.email_timeout_entry.grid(row=5, column=1, sticky="w", pady=5)
+        ttk.Label(email_frame, text="(bei langsamen Servern erhöhen)").grid(row=5, column=2, sticky="w", padx=5)
+        
+        ttk.Label(email_frame, text="Max. Verbindungsversuche:").grid(row=6, column=0, sticky="w", pady=5)
+        self.email_retries_entry = ttk.Entry(email_frame, width=10)
+        self.email_retries_entry.grid(row=6, column=1, sticky="w", pady=5)
+        
         # ========== 2. LM-Studio Einstellungen ==========
         lm_frame = ttk.LabelFrame(scrollable_frame, text="🧠 LM-Studio Verbindung", padding=10)
         lm_frame.pack(fill="x", padx=10, pady=5)
@@ -117,7 +133,7 @@ class EmailAnalyzerGUI:
         ttk.Label(settings_frame, text="Maximale E-Mails:").grid(row=0, column=0, sticky="w", pady=5)
         self.max_emails_entry = ttk.Entry(settings_frame, width=10)
         self.max_emails_entry.grid(row=0, column=1, sticky="w", pady=5)
-        ttk.Label(settings_frame, text="(letzte X E-Mails)").grid(row=0, column=2, sticky="w", padx=5)
+        ttk.Label(settings_frame, text="(0 = alle, letzte X bei Zahl >0)").grid(row=0, column=2, sticky="w", padx=5)
         
         ttk.Label(settings_frame, text="Themen-Cluster (kommagetrennt):").grid(row=1, column=0, sticky="w", pady=5)
         self.clusters_entry = ttk.Entry(settings_frame, width=60)
@@ -196,6 +212,8 @@ class EmailAnalyzerGUI:
         self.port_entry.insert(0, str(self.config.get('port', 993)))
         self.username_entry.insert(0, self.config.get('username', ''))
         self.password_entry.insert(0, self.config.get('password', ''))
+        self.email_timeout_entry.insert(0, str(self.config.get('email_timeout', 30)))
+        self.email_retries_entry.insert(0, str(self.config.get('email_retries', 3)))
         
         # LM-Studio
         self.lm_url_entry.insert(0, self.config.get('lm_url', 'http://localhost:1234/v1/chat/completions'))
@@ -205,7 +223,8 @@ class EmailAnalyzerGUI:
         
         # Analyse
         self.max_emails_entry.insert(0, str(self.config.get('max_emails', 200)))
-        self.clusters_entry.insert(0, ', '.join(self.config.get('clusters', ['Rechnung', 'Meeting', 'Newsletter', 'Support', 'Angebot', 'Privat'])))
+        clusters_str = ', '.join(self.config.get('clusters', ['Rechnung', 'Meeting', 'Newsletter', 'Support', 'Angebot', 'Privat']))
+        self.clusters_entry.insert(0, clusters_str)
         self.prompt_text.insert('1.0', self.config.get('system_prompt', self._default_prompt()))
     
     def _default_prompt(self):
@@ -236,6 +255,8 @@ Erkläre nichts, gib NUR das JSON zurück."""
             'username': self.username_entry.get(),
             'password': self.password_entry.get(),
             'use_imap': self.use_imap.get(),
+            'email_timeout': int(self.email_timeout_entry.get() or 30),
+            'email_retries': int(self.email_retries_entry.get() or 3),
             
             # LM-Studio
             'lm_url': self.lm_url_entry.get(),
@@ -280,13 +301,15 @@ Erkläre nichts, gib NUR das JSON zurück."""
     
     def _run_analysis(self):
         try:
-            # 1. E-Mails laden
+            # 1. E-Mails laden mit Timeout-Einstellungen
             fetcher = EmailFetcher(
                 self.config['server'],
                 self.config['port'],
                 self.config['username'],
                 self.config['password'],
-                self.config['use_imap']
+                self.config['use_imap'],
+                timeout=self.config.get('email_timeout', 30),
+                max_retries=self.config.get('email_retries', 3)
             )
             
             def update_progress(current, total):
@@ -313,19 +336,20 @@ Erkläre nichts, gib NUR das JSON zurück."""
             self.root.after(0, lambda: self.status_label.config(text=f"Analysiere {len(emails)} E-Mails mit LM-Studio..."))
             
             analyzer = EmailAnalyzer(
-                self.lm_client,
-                self.config['clusters'],
-                self.config['allow_new_clusters']
+                lm_client=self.lm_client,
+                base_clusters=self.config['clusters'],
+                temperature=self.config['lm_temperature'],
+                allow_new_clusters=self.config['allow_new_clusters']
             )
             
             def update_analysis_progress(current, total):
                 self.root.after(0, lambda: self._update_progress(current, total, f"Analysiere {current}/{total}"))
             
             results, stats = analyzer.analyze_emails(
-                emails,
-                self.config['system_prompt'],
-                self.config['lm_max_tokens'],
-                update_analysis_progress
+                emails=emails,
+                system_prompt=self.config['system_prompt'],
+                max_tokens=self.config['lm_max_tokens'],
+                progress_callback=update_analysis_progress
             )
             
             # 3. Excel erstellen
@@ -351,7 +375,8 @@ Erkläre nichts, gib NUR das JSON zurück."""
             
         except Exception as e:
             logger.error(f"Fehler in Analyse: {str(e)}", exc_info=True)
-            self.root.after(0, lambda: self._show_error(f"Unerwarteter Fehler: {str(e)}"))
+            error_msg = str(e)
+            self.root.after(0, lambda: self._show_error(f"Unerwarteter Fehler: {error_msg}"))
     
     def _update_progress(self, current, total, status_text):
         self.progress['maximum'] = total

@@ -6,9 +6,10 @@ from datetime import datetime
 class EmailAnalyzer:
     """E-Mail-Analyse mit Clustering und allen Auswertungen"""
     
-    def __init__(self, lm_client, base_clusters, allow_new_clusters=True):
+    def __init__(self, lm_client, base_clusters, temperature=0.3, allow_new_clusters=True):
         self.lm_client = lm_client
         self.base_clusters = base_clusters
+        self.temperature = temperature
         self.allow_new_clusters = allow_new_clusters
         self.known_clusters = set(base_clusters)
         self.new_clusters_file = Path("custom_clusters.json")
@@ -18,7 +19,7 @@ class EmailAnalyzer:
         """Gelernte Cluster laden"""
         if self.new_clusters_file.exists():
             try:
-                with open(self.new_clusters_file, 'r') as f:
+                with open(self.new_clusters_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                     self.known_clusters.update(data.get('clusters', []))
             except:
@@ -28,8 +29,8 @@ class EmailAnalyzer:
         """Neue Cluster speichern"""
         custom_clusters = list(self.known_clusters - set(self.base_clusters))
         if custom_clusters:
-            with open(self.new_clusters_file, 'w') as f:
-                json.dump({'clusters': custom_clusters}, f, indent=2)
+            with open(self.new_clusters_file, 'w', encoding='utf-8') as f:
+                json.dump({'clusters': custom_clusters}, f, indent=2, ensure_ascii=False)
     
     def analyze_emails(self, emails, system_prompt, max_tokens=4096, progress_callback=None):
         """Alle E-Mails analysieren"""
@@ -40,9 +41,13 @@ class EmailAnalyzer:
             if progress_callback:
                 progress_callback(i + 1, len(emails))
             
-            # Analyse durch LM-Studio
+            # Analyse durch LM-Studio mit Temperatur
             analysis_result = self.lm_client.analyze_email(
-                email, system_prompt, list(self.known_clusters), max_tokens
+                email_data=email,
+                system_prompt=system_prompt,
+                clusters=list(self.known_clusters),
+                max_tokens=max_tokens,
+                temperature=self.temperature
             )
             
             if analysis_result['success']:
@@ -58,12 +63,13 @@ class EmailAnalyzer:
                     clusters_assigned = ['Sonstiges']
                 
                 # Neue Cluster erkennen und zählen
-                for cluster in clusters_assigned:
+                for cluster in clusters_assigned[:]:  # Kopie für Iteration
                     if cluster.startswith('NEU:'):
                         new_cluster = cluster[4:]
                         if self.allow_new_clusters:
                             new_clusters_found[new_cluster] += 1
-                            clusters_assigned[clusters_assigned.index(cluster)] = new_cluster
+                            idx = clusters_assigned.index(cluster)
+                            clusters_assigned[idx] = new_cluster
                             if new_cluster not in self.known_clusters:
                                 self.known_clusters.add(new_cluster)
                     elif cluster not in self.known_clusters and self.allow_new_clusters:
@@ -156,7 +162,7 @@ class EmailAnalyzer:
             'sentiment_distribution': dict(sentiment_counts),
             'top_senders': top_senders,
             'important_emails': important_mails,
-            'all_actions': all_actions[:20],  # Top 20 Aktionen
+            'all_actions': all_actions[:20],
             'daily_distribution': dict(daily_counts),
             'emails_with_attachments': sum(1 for r in results if r['has_attachments'])
         }
